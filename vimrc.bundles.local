@@ -1,0 +1,7 @@
+Bundle 'arrufat/vala.vim'
+Bundle 'vim-scripts/let-modeline.vim'
+Bundle 'vim-scripts/Smart-Home-Key'
+UnBundle 'gcmt/wildfire.vim'
+UnBundle 'jiangmiao/auto-pairs'
+UnBundle 'nathanaelkane/vim-indent-guides'
+UnBundle 'tpope/vim-markdown'

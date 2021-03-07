@@ -1,0 +1,41 @@
+    <!-- Keybindings for window tiling -->
+    <keybind key="W-Left">        # HalfLeftScreen
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo"><x>0</x><y>0</y><height>100%</height><width>50%</width></action>
+    </keybind>
+      <keybind key="W-Right">        # HalfRightScreen
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo"><x>-0</x><y>0</y><height>100%</height><width>50%</width></action>
+    </keybind>
+      <keybind key="W-Up">        # HalfUpperScreen
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo"><x>0</x><y>0</y><width>100%</width><height>50%</height></action>
+    </keybind>
+      <keybind key="W-Down">        # HalfLowerScreen
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo"><x>0</x><y>-0</y><width>100%</width><height>50%</height></action>
+    </keybind>
+    <!-- Keybinding for screen locking -->
+    <keybind key="W-l">
+      <action name="Execute">
+        <command>sh -c "mate-screensaver-command --lock &amp;&amp; sleep 1 &amp;&amp; xset s activate"</command>
+      </action>
+    </keybind>
+    <!-- Keybinding to leave -->
+    <keybind key="W-S-l">
+      <action name="Execute">
+        <command>lxqt-leave</command>
+      </action>
+    </keybind>
+    <!-- Keybinding for terminal -->
+    <keybind key="C-A-t">
+      <action name="Execute">
+        <command>qterminal</command>
+      </action>
+    </keybind>
+    <!-- Keybinding for calculator -->
+    <keybind key="XF86Calculator">
+      <action name="Execute">
+        <command>qalculate-gtk</command>
+      </action>
+    </keybind>

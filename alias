@@ -1,0 +1,14 @@
+alias cgrep='grep --color=always'
+alias dd='dd status=progress conv=noerror,sync'
+alias grep='grep --color=auto'
+alias less='less -R'
+alias ls='ls --color'
+alias trash='gvfs-trash'
+alias tsv="column -t --separator $'\t'"
+alias iexplore='wine "C:\Program Files\\Internet Explorer\\iexplore"'
+alias wine32='WINEARCH=win32 wine'
+#http://wiki.winehq.org/FAQ#uninstall_app
+alias rm-wine-prefix='rm -rf ~/.wine && rm -f ~/.config/menus/applications-merged/wine* && rm -rf ~/.local/share/applications/wine && rm -f ~/.local/share/desktop-directories/wine* && rm -f ~/.local/share/icons/????_*.{xpm,png} && rm -f ~/.local/share/icons/*-x-wine-*.{xpm,png} && rm -f ~/.local/share/mime/packages/x-wine* && rm -f ~/.local/share/applications/wine-extension* && rm -f ~/.local/share/icons/hicolor/*/*/application-x-wine-extension* && rm -f ~/.local/share/mime/application/x-wine-extension*'
+alias wine-valgrind='valgrind --trace-children=yes --vex-iropt-register-updates=allregs-at-mem-access --workaround-gcc296-bugs=yes'
+alias mozilla-valgrind='valgrind --smc-check=all-non-file --vex-iropt-register-updates=allregs-at-mem-access --show-mismatched-frees=no --read-inline-info=yes'
+alias nocommentpodiff='grep -vE "^.#"'

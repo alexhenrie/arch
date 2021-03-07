@@ -1,0 +1,13 @@
+runtime! mswin.vim
+behave xterm
+"map <Enter> i<Enter>
+"map <BS> i<BS>
+map <silent> <Home> :SmartHomeKey <CR>
+imap <silent> <Home> <C-O>:SmartHomeKey <CR>
+"noremap <expr> <End> (col('$')>1?"\<lt>end>\<lt>right>":'')
+let g:spf13_keep_trailing_whitespace = 1
+let g:vala_syntax_folding_enabled = 0
+let g:ycm_auto_trigger=0
+let g:ycm_extra_conf_globlist = ['~/.ycm_extra_conf.py', '!/*']
+set conceallevel=0
+set colorcolumn=81,121

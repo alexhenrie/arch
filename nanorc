@@ -1,0 +1,7 @@
+include /usr/share/nano/*.nanorc
+set autoindent
+set fill 72
+set nowrap
+set tabsize 4
+set tabstospaces
+set trimblanks
